@@ -1,0 +1,10 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+{% for post in post_list %}
+<h1><a href="{% url 'post_detail' pk=post.pk %}">{{post.title}}</a></h1>
+<div class="date">
+    <p>Published on: {{post.published_date|date:"D M Y"}}</p>
+</div>
+<hr class="line">
+{% endfor %}
+{% endblock %}

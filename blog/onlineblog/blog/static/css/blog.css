@@ -1,0 +1,28 @@
+.center{
+    margin: auto;
+}
+
+.title{
+    color: #e07a5f;
+}
+
+.author{
+    color: #3d405b;
+}
+
+.text{
+    color: #81b29a;
+}
+
+.jumbotron{
+    background-color: #f2cc8f;
+}
+
+body{
+    font-family: 'Azeret Mono', sans-serif;
+    background-color: #f4f1de;
+}
+
+.line{
+    border: 1px solid #f2cc8f;
+}
